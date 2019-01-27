@@ -24,7 +24,7 @@ Use popular Twitch emotes on WhatsApp in the form of stickers.
 #### Includes over 50 emotes
 
   - Kappa ![Kappa][https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers/blob/master/app/src/main/assets/1/Kappa.webp]
-  - monkaS <img src="https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers/blob/master/app/src/main/assets/2/monkaS.webp" alt="drawing" width="32"/> 
+  - monkaS <img src="https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers/blob/master/app/src/main/assets/2/monkaS.webp" alt="Markdowm Image" width="32"/> 
   - PogChamp <img src="https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers/blob/master/app/src/main/assets/1/PogChamp.webp" alt="drawing" width="32"/>
   - OMEAGLUL <img src="https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers/blob/master/app/src/main/assets/2/OMEGALUL.webp" alt="drawing" width="32"/>
   - 4Head <img src="https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers/blob/master/app/src/main/assets/1/4Head.webp" alt="drawing" width="32"/>
