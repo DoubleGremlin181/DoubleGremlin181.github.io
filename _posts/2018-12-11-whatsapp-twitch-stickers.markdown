@@ -24,14 +24,21 @@ Use popular Twitch emotes on WhatsApp in the form of stickers.
 #### Includes over 50 emotes
 
   - Kappa
+  1
+  
   ![Kappa][https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers/blob/master/app/src/main/assets/1/Kappa.webp]
-  - monkaS <img src="https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers/blob/master/app/src/main/assets/2/monkaS.webp" alt="Markdowm Image" width="32"/> 
-  - PogChamp <img src="https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers/blob/master/app/src/main/assets/1/PogChamp.webp" alt="drawing" width="32"/>
-  - OMEAGLUL <img src="https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers/blob/master/app/src/main/assets/2/OMEGALUL.webp" alt="drawing" width="32"/>
-  - 4Head <img src="https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers/blob/master/app/src/main/assets/1/4Head.webp" alt="drawing" width="32"/>
-  - LuL <img src="https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers/blob/master/app/src/main/assets/2/LuL.webp" alt="drawing" width="32"/>
-  - TriHard <img src="https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers/blob/master/app/src/main/assets/1/TriHard.webp" alt="drawing" width="32"/>
-  - and more...
+  2
+  
+  ![Kappa](https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers/blob/master/app/src/main/assets/1/Kappa.webp)
+  3
+  
+  <img src="https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers/blob/master/app/src/main/assets/1/Kappa.webp" alt="Markdowm Image" width="32"/> 
+  4
+  
+  <img src="https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers/blob/master/app/src/main/assets/1/Kappa.webp" alt="drawing" width="32"/>
+  5
+  
+  ![Kappa][https://d33wubrfki0l68.cloudfront.net/200d166fc3dff29e5b8a6703d8e83cc25821bcf4/10dd6/media/2018/08/kitten.jpg]
   
 <div class="breaker"></div>
 This app is a fork of [WhatsApp/Stickers](https://github.com/WhatsApp/stickers)
