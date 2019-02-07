@@ -15,7 +15,7 @@ category: project
 author: kavishhukmani
 externalLink: false
 ---
-[Download](https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers/releases/download/3.0/app-debug.apk)
+[Download](https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers/releases/download/3.1.1/app-debug.apk)
 
 [Source Code](https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers)
 
