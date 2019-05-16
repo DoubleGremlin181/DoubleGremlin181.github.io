@@ -5,7 +5,7 @@ date: 2019-05-16 16:13
 tag:
 - music
 image: /assets/images/k-logo.png
-headerImage: false
+headerImage: true
 description: "My Spotify Playlist"
 category: blog
 author: kavishhukmani
