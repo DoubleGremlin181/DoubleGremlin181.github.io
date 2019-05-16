@@ -35,7 +35,7 @@ disqus:
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
-# twitter: mytwitter
+# twitter: 2Gremlin181
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
@@ -59,7 +59,7 @@ authors:
         bio: TODO Add a witty bio
         external-image: false
         picture: assets/images/profile.jpg
-        twitter:
+        twitter: 2Gremlin181
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
