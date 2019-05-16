@@ -16,6 +16,6 @@ author: kavishhukmani
     </div>
 
     <div class="toright">
-        <p>My Spotify playlist. Comprises of mainly punk, pop-punk and ska songs. I've tried my avoid mutliple songs from the same artist. Happy listening!</p>
+        <p>My Spotify playlist. Comprises of mainly punk, pop-punk and ska songs. I've tried my best to avoid adding mutliple songs from the same artist. Happy listening!</p>
     </div>
 </div>
