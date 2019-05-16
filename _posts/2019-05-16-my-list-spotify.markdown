@@ -4,7 +4,7 @@ layout: post
 date: 2019-05-16 16:13
 tag:
 - music
-image: /assets/images/posts/pygame-tetris/tetris-logo.png
+image: /assets/images/k-logo.png
 headerImage: false
 description: "My Spotify Playlist"
 category: blog
