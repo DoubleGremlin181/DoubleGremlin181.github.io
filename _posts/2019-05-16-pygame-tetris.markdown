@@ -34,7 +34,7 @@ Quit Game                             | Q        | Escape
 * Score is rows cleared * 10
 * Fall speed increases with score
 
-![Markdowm Image](/assets/images/posts/pygame-tetris/tetris.png)
+![Markdown Image](/assets/images/posts/pygame-tetris/tetris.png)
 <figcaption class="caption">Screenshot</figcaption>
 
 
