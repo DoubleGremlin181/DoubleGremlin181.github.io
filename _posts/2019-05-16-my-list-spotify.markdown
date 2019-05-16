@@ -12,10 +12,10 @@ author: kavishhukmani
 ---
 <div class="side-by-side">
     <div class="toleft">
-        <iframe src="https://open.spotify.com/embed/user/khukmani/playlist/3zqhLdgqjeFysHuzOAnRrO" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+        <iframe src="https://open.spotify.com/embed/user/khukmani/playlist/3zqhLdgqjeFysHuzOAnRrO" height="380" frameborder="0" allowtransparency="true"></iframe>
     </div>
 
     <div class="toright">
-        <p>My Spotify playlist. Comprises on mainly punk, pop-punk and ska songs. I've tried my best to reduce mutliple songs from the same artist. Happy listening!</p>
+        <p>My Spotify playlist. Comprises of mainly punk, pop-punk and ska songs. I've tried my avoid mutliple songs from the same artist. Happy listening!</p>
     </div>
 </div>
