@@ -17,7 +17,7 @@ externalLink: false
 ---
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="48">](https://f-droid.org/packages/me.kavishhukmani.watwitchstickers)
 
-[Download](https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers/releases/download/6.0.0/app-debug.apk)
+[Download](https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers/releases/download/7.0.0/app-debug.apk)
 
 [Source Code](https://github.com/DoubleGremlin181/WhatsApp-Twitch-Stickers)
 
