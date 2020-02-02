@@ -17,7 +17,7 @@ externalLink: false
 ---
 [Instagram Link](https://www.instagram.com/a/r/?effect_id=186688162731890)
 
-An AR filter built using Facebook's own Spark AR Studio. It follows the trend of 'What x am i?' filters.
+An AR filter built using Facebook's own Spark AR Studio. It follows the trend of 'What x am I?' filters.
 
 Press and hold the shutter button to run it.
 
