@@ -84,7 +84,7 @@ git push origin master
 ```
 
 
-8) Add you email ID and password as Secrets to your repo on GitHub
+8) Add your email ID and password as Secrets to your repo on GitHub
 >Settings -> Secrets -> New Secret
 
 
