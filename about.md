@@ -9,7 +9,25 @@ layout: page
 
 My name is <strong>Kavish Hukmani</strong>, and I am a passionate, creative, and perceptive engineer with a hands-on approach to problem-solving and an unending thirst for knowledge. Anything and everything that can be classified as technology fascinates me.
 
+<<<<<<< HEAD
 I currently live in San Francisco and am pursuing my MSBA at UC Davis. I previously worked as a Data Scientist at Impact Analytics, creating products that enabled leading retail and CPG firms to make data-driven decisions easily.
+=======
+<ul class="skill-list">
+	<li>HTML - Jade - Haml - Erb</li>
+	<li>Responsive (Mobile First)</li>
+	<li>CSS (Stylus, Sass, Less)</li>
+	<li>Css Frameworks (Bootstrap, Foundation)</li>
+	<li>Javascript (Design Patterns, Testes)</li>
+	<li>AngularJS - ReactJS</li>
+	<li>Grunt - Gulp - Yeoman</li>
+	<li>Git</li>
+	<li>PHP</li>
+	<li>Python</li>
+	<li>MySQL - MongoDB</li>
+	<li>Scrum and Kanban</li>
+	<li>TDD e Continuous Integration</li>
+</ul>
+>>>>>>> upstream/gh-pages
 
 I follow a number of sports ranging from Soccer, Formula1 to various eSports. Other than that, I love solving puzzles and listening to music.
 
