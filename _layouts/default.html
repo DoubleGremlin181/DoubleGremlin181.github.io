@@ -9,9 +9,13 @@ layout: compress
         {% include analytics-google.html %}
     {% endif %}
 
+    {% if page.usemathjax %}
+        {% include mathjax.html %}
+    {% endif %}
+
     <meta charset="utf-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <meta name=author content="{{ site.name }}">
+    <meta name=author content="{{ site.title }}">
 
     {% seo %}
 
@@ -19,6 +23,8 @@ layout: compress
 
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
+
+    <script src="https://kit.fontawesome.com/d9b09040a7.js" crossorigin="anonymous"></script>
 
     <style>
     {% if site.dark-theme %}
@@ -32,7 +38,6 @@ layout: compress
 
 </head>
 <body>
-
     <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
         {% if page.layout == "post" %}
             <div class="post">
@@ -45,10 +50,9 @@ layout: compress
         {% endif %}
 
             {{ content }}
-        </div>
+            </div>
+                </div>
+            </div>
     </div>
-
-    {% include icons.html %}
-
 </body>
 </html>
