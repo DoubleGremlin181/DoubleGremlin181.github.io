@@ -9,6 +9,7 @@ tag:
 - components
 - extra
 category: blog
+usemathjax: true
 author: jamesfoster
 description: Markdown summary with different options
 ---
@@ -23,6 +24,7 @@ You can pick as item to see how to apply in markdown.
 - [Star](#star)
 - [Especial Breaker](#especial-breaker)
 - [Spoiler](#spoiler)
+- [MathJax](#mathjax)
 
 #### External Elements
 - [Gist](#gist)
@@ -133,6 +135,24 @@ You can add an especial hidden content that appears on hover.
 {% endhighlight %}
 
 <div class="spoiler"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+
+---
+
+## MathJax
+
+You can use mathematical notations such as TeX and MathML in a post. Just add the tag to the markdown file.
+
+{% highlight raw %}
+usemathjax: true
+{% endhighlight %}
+
+Any text enclosed in double $ will be converted to an equation.
+
+{% highlight raw %}
+$$ E = mc^2 $$
+{% endhighlight %}
+
+$$ E = mc^2 $$
 
 ---
 
