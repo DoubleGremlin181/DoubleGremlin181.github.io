@@ -22,13 +22,13 @@ externalLink: false
 
 I’m sure that everyone agrees with the statement that teamwork is, at least to some degree, imperative to success. You can find journal papers and excerpts from books studying the impact of teamwork from the early 1900s to ones published just [yesterday](https://scholar.google.com/scholar?q=teamwork&scisbd=1). The definition and requirement of teamwork is essentially the same whether you were a [farmer and his agent in 1918](https://naldc.nal.usda.gov/download/IND43843093/PDF), a [player in a professional sports team](https://www.tandfonline.com/doi/abs/10.1080/1750984X.2014.932423) fighting for the world championship, or a part of a [contemporary firm and are working remotely due to the ongoing pandemic](http://dx.doi.org/10.1136/bmjqs-2020-011447).
 
----
+<div class="breaker"></div>
 
 In this essay, I will be talking about my perspective on teamwork from the lens of a modern analytics environment and how it matured through my practicum at UC Davis.
 
 For the uninitiated, a [practicum](https://www.merriam-webster.com/dictionary/practicum), as defined by Merriam-Webster, is a course of study [..] that involves the supervised practical application of previously studied theory. The MS in Business Analytics program at UC Davis consists of a year-long practicum, a critical factor in my decision to join the program. As a part of it, I am currently working with [Angel Flight West](https://www.angelflightwest.org/)(AFW), a non-profit organization that leverages a fleet of volunteer pilots to provide non-emergency medical transport to patients at no cost.
 
----
+<div class="breaker"></div>
 
 Before joining the program, my experience working in large teams was limited. During my time at Manipal Institute of Technology and Impact Analytics, I was primarily in teams of 3 or fewer members, where everyone belonged to similar backgrounds and had identical job titles. This homogeneity made working with them very easy and efficient, as more often than not, we would share a common vision and approach to problem-solving. It gave me the impression that everyone within a team was an identical cog in a machine.
 

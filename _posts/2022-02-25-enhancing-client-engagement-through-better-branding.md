@@ -21,7 +21,7 @@ I’m sure you’ve heard this quote thrown around before. You might have even r
 
 In fact, let me blow your mind by telling you that the author of the previous article exposing these practices runs a company that offers [services](https://booklaunch.com/) to market books and make them bestsellers.
 
----
+<div class="breaker"></div>
 
 Branding is the first step towards engaging with your customers. While these were innovative ways of branding products, I will be talking about a different application of branding that isn’t given as much thought but is equally applicable in our day-to-day lives- <strong>Project Branding</strong>.
 
@@ -50,7 +50,7 @@ Since the nature of the practicum led to rigid overall time constraints, we used
 #### 5. Setting additional meetings when required
 When faced with a roadblock that required the client’s assistance, reaching out and setting up additional meetings rather than waiting for the weekly call showed a sense of urgency and priority towards the project.
 
----
+<div class="breaker"></div>
 
 ## Branding is part of client engagement. It is a sales job.
 
