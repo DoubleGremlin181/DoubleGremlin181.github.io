@@ -1,7 +1,7 @@
 ---
 title: "My Understanding of Teamwork in the Analytics Workplace"
 layout: post
-date: 2021-11-30 19:25
+date: 2022-01-25 23:59
 tag:
 - essay
 - coursework
