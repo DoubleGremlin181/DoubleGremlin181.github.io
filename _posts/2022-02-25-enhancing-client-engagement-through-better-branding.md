@@ -12,8 +12,12 @@ author: kavishhukmani
 externalLink: false
 ---
 
+<span class="evidence">This blog was initially written as part of my coursework for BAX 462 - Practicum Elaboration at UC Davis.</span>
+
 ![Header Image](/assets/images/posts/enhancing-client-engagement-through-better-branding/header.jpeg)
 <figcaption class="caption">Photo by Austin Distel on Unsplash</figcaption>
+
+<br>
 
 > Every Job is a Sales Job
 
