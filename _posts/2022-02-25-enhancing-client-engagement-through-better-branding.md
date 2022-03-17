@@ -57,7 +57,13 @@ When faced with a roadblock that required the client’s assistance, reaching ou
 <div class="breaker"></div>
 
 ## Branding is part of client engagement. It is a sales job.
+Client engagement is everywhere; in the case of the practicum, the goal was to extract more in the form of learning, and in the real world, it can ensure buy-in from your client and create customer loyalty. In this case, you, the reader, is engaging with my blog, and I want to ensure that my personal brand makes a good impression that makes you want to come back and interact more with my content. If it did, follow me on GitHub or Tweet at me with your thoughts.
 
-Client engagement is everywhere; in the case of the practicum, the goal was to extract more in the form of learning, and in the real world, it can ensure buy-in from your client and create customer loyalty. In this case, you, the reader, is engaging with my blog, and I want to ensure that my personal brand makes a good impression that makes you want to come back and interact more with my content. If it did, leave a clap or response with your thoughts.
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/DoubleGremlin181" data-color-scheme="no-preference: light; light: light; dark: dark;" aria-label="Follow @DoubleGremlin181 on GitHub">Follow @DoubleGremlin181</a>
+<a href="https://twitter.com/intent/tweet?screen_name=2gremlin181&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @2gremlin181</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 
 ---
