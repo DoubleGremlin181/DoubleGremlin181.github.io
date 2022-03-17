@@ -14,7 +14,7 @@ externalLink: false
 
 ## An evolution through the UC Davis MSBA Practicum
 
-<span class="evidence">This report was initially written as part of my coursework for BAX 462 - Practicum Elaboration at UC Davis.</span>
+<span class="evidence">This blog was initially written as part of my coursework for BAX 462 - Practicum Elaboration at UC Davis.</span>
 
 ![Teamwork Image](/assets/images/posts/my-understanding-of-teamwork-in-the-analytics-workplace/teamwork.jpeg){: class="bigger-image" }
 <figcaption class="caption">Photo by Nick Fewings on Unsplash</figcaption>
