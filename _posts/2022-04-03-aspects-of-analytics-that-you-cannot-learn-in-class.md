@@ -74,9 +74,9 @@ Creating a timeline for any sort of work is hard. Even experienced professionals
 
 ### Not impressed?
 
-Is there any aspect that you think that I should have mentioned? Or a BATPE that you recommend? Feel free to tweet at me.
+Is there any aspect that you think that I should have mentioned? Or a BATPE that you recommend? Feel free to tweet at me using the button below.
 
-<a href="https://twitter.com/intent/tweet?screen_name=2gremlin181&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet at @2gremlin181</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a href="https://twitter.com/intent/tweet?screen_name=2gremlin181&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @2gremlin181</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ---
