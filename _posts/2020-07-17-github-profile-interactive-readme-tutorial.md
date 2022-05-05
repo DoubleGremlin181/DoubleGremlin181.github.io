@@ -93,7 +93,7 @@ git push origin master
 <!-- Place this tag where you want the button to render. -->
 <a class="github-button" href="https://github.com/DoubleGremlin181/DoubleGremlin181" data-icon="octicon-star" aria-label="Star DoubleGremlin181/DoubleGremlin181 on GitHub">Star</a> my repo if you found this tutorial helpful.
 
-<a href="https://twitter.com/intent/tweet?screen_name=2gremlin181&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet at @2gremlin181</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> with your profiles and ideas
+<a href="https://twitter.com/intent/tweet?screen_name=2gremlin181&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @2gremlin181</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> with your profiles and ideas
 
 
 <!-- Place this tag in your head or just before your close body tag. -->

@@ -61,7 +61,7 @@ Client engagement is everywhere; in the case of the practicum, the goal was to e
 
 <!-- Place this tag where you want the button to render. -->
 <a class="github-button" href="https://github.com/DoubleGremlin181" data-color-scheme="no-preference: light; light: light; dark: dark;" aria-label="Follow @DoubleGremlin181 on GitHub">Follow @DoubleGremlin181</a>
-<a href="https://twitter.com/intent/tweet?screen_name=2gremlin181&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet at @2gremlin181</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a href="https://twitter.com/intent/tweet?screen_name=2gremlin181&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @2gremlin181</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
