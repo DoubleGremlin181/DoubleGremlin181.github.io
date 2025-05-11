@@ -16,6 +16,8 @@ externalLink: false
 ---
 [View source code on GitHub](https://github.com/DoubleGremlin181/fast-travel)
 
+**[Try it out](https://fast-travel.kavi.sh/)**
+
 # Fast Travel
 
 **Supercharge your search bar**
