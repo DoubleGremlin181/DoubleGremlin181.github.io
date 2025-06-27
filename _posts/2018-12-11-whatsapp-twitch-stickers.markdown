@@ -9,7 +9,7 @@ tag:
 image: /assets/images/posts/whatsapp-twitch-stickers/whatsapp-twitch-stickers.png
 headerImage: true
 projects: true
-hidden: true # don't count this post in blog pagination
+hidden: false
 description: "Popular Twitch emotes for WhatsApp"
 category: project
 author: kavishhukmani

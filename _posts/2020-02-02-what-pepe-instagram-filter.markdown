@@ -9,7 +9,7 @@ tag:
 image: /assets/images/posts/what-pepe-instagram-filter/what-pepe-instagram-filter.png
 headerImage: true
 projects: true
-hidden: true # don't count this post in blog pagination
+hidden: false
 description: "Find out what Pepe represents you"
 category: project
 author: kavishhukmani

@@ -8,7 +8,7 @@ tag:
 image: /assets/images/posts/fast-travel/header.png
 headerImage: true
 projects: true
-hidden: true # don't count this post in blog pagination
+hidden: false
 description: "Supercharge your search bar"
 category: project
 author: kavishhukmani

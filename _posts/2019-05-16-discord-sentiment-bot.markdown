@@ -8,7 +8,7 @@ tag:
 image: /assets/images/posts/discord-sentiment-bot/bot-dp.jpeg
 headerImage: true
 projects: true
-hidden: true # don't count this post in blog pagination
+hidden: false
 description: "A simple bot that analysis the sentiment of a message using the TextBlob library."
 category: project
 author: kavishhukmani

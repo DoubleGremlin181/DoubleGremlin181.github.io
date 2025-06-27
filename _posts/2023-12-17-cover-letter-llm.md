@@ -8,7 +8,7 @@ tag:
 image: /assets/images/posts/cover-letter-llm/logo.png
 headerImage: true
 projects: true
-hidden: true # don't count this post in blog pagination
+hidden: false
 description: "Generate customized cover letters using your resume and job listings"
 category: project
 author: kavishhukmani

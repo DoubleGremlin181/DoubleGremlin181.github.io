@@ -9,7 +9,7 @@ tag:
 image: /assets/images/posts/pygame-tetris/tetris-logo.png
 headerImage: true
 projects: true
-hidden: true # don't count this post in blog pagination
+hidden: false
 description: "An implementation of Tetris in PyGame"
 category: project
 author: kavishhukmani

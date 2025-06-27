@@ -9,7 +9,7 @@ tag:
 image: /assets/images/posts/analyzing-tweets-2022-russian-invasion-of-ukraine/twitter_app.jpg
 headerImage: true
 projects: true
-hidden: true
+hidden: false
 description: "An analysis of Tweets regarding the 2022 Russian invasion of Ukraine"
 category: project
 author: kavishhukmani

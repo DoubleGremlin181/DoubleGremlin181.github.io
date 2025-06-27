@@ -9,7 +9,7 @@ tag:
 image: /assets/images/posts/covid-19-visualizations/covid-19.jpg
 headerImage: true
 projects: true
-hidden: true # don't count this post in blog pagination
+hidden: false
 description: "Visualizations showing the time wise spread of COVID-19 in India"
 category: project
 author: kavishhukmani

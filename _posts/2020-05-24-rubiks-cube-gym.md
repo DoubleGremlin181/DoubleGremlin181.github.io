@@ -9,7 +9,7 @@ tag:
 image: /assets/images/posts/rubiks-cube-gym/twitsy-puzzles.jpg
 headerImage: true
 projects: true
-hidden: true # don't count this post in blog pagination
+hidden: false
 description: "An OpenAI Gym environment for various twisty puzzles"
 category: project
 author: kavishhukmani

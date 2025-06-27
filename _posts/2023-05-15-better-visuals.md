@@ -9,7 +9,7 @@ tag:
 image: /assets/images/posts/better-visuals/logo.png
 headerImage: true
 projects: true
-hidden: true # don't count this post in blog pagination
+hidden: false
 description: "Interactive and visually appealing dashboards"
 category: project
 author: kavishhukmani

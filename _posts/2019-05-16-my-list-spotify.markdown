@@ -6,6 +6,7 @@ tag:
 - music
 image: /assets/images/k-logo.png
 headerImage: true
+hidden: true
 description: "My Spotify Playlist"
 category: blog
 author: kavishhukmani
