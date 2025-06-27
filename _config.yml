@@ -99,6 +99,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-feed
+  - jekyll-sitemap
   - jemoji
 
 compress_html:
