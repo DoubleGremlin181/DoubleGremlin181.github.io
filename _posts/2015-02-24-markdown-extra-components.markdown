@@ -9,7 +9,7 @@ tag:
 - components
 - extra
 category: blog
-usemathjax: true
+mathjax: true
 author: jamesfoster
 description: Markdown summary with different options
 ---
@@ -143,7 +143,7 @@ You can add an especial hidden content that appears on hover.
 You can use mathematical notations such as TeX and MathML in a post. Just add the tag to the markdown file.
 
 {% highlight raw %}
-usemathjax: true
+mathjax: true
 {% endhighlight %}
 
 Any text enclosed in double $ will be converted to an equation.
