@@ -5,32 +5,55 @@ title: Tags
 <section class="list">
     <h1 class="title">Tags</h1>
 
-    {% assign tags_list = site.tags %}
+    {% comment %}
+    Sort tags by frequency using Jekyll's sort filter
+    We'll create a simple array and sort by size
+    {% endcomment %}
+    {% assign sorted_tags = site.tags | sort %}
+    {% assign tags_by_frequency = '' | split: '' %}
+    
+    {% comment %}
+    Build array with tag names and counts, then sort manually
+    {% endcomment %}
+    {% for tag in site.tags %}
+        {% assign tag_size = tag[1].size %}
+        {% if tag_size >= 10 %}
+            {% assign prefix = tag_size %}
+        {% else %}
+            {% assign prefix = '0' | append: tag_size %}
+        {% endif %}
+        {% assign tag_entry = prefix | append: '|' | append: tag[0] %}
+        {% assign tags_by_frequency = tags_by_frequency | push: tag_entry %}
+    {% endfor %}
+    
+    {% assign tags_by_frequency = tags_by_frequency | sort | reverse %}
 
-    {% if tags_list.first[0] == null %}
-        {% for tag in tags_list %}
-            <a class="item" href="#{{ tag | slugify }}">{{ tag }}</a>
-        {% endfor %}
-    {% else %}
-        {% for tag in tags_list %}
-            <a class="item" href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>
-        {% endfor %}
-    {% endif %}
-
-    {% assign tags_list = nil %}
+    {% comment %}
+    Display sorted tags with post counts
+    {% endcomment %}
+    {% for tag_entry in tags_by_frequency %}
+        {% assign tag_parts = tag_entry | split: '|' %}
+        {% assign tag_count = tag_parts[0] | plus: 0 %}
+        {% assign tag_name = tag_parts[1] %}
+        <a class="item" href="#{{ tag_name | slugify }}">{{ tag_name }} ({{ tag_count }})</a>
+    {% endfor %}
 </section>
 
 <hr>
 
 <section class="tag-list">
-    {% for tag in site.tags  %}
-    <h2 class="title" id="{{ tag[0] | slugify }}">#{{ tag[0] }}</h2>
+    {% comment %}
+    Display tag sections in the same sorted order
+    {% endcomment %}
+    {% for tag_entry in tags_by_frequency %}
+        {% assign tag_parts = tag_entry | split: '|' %}
+        {% assign tag_name = tag_parts[1] %}
+        
+        <h2 class="title" id="{{ tag_name | slugify }}">#{{ tag_name }}</h2>
 
-    <ul class="list">
-        {% assign pages_list = tag[1] %}
-        {% for post in pages_list reversed %}
-            {% if post.title != null %}
-                {% if group == null or group == post.group %}
+        <ul class="list">
+            {% for post in site.tags[tag_name] reversed %}
+                {% if post.title != null %}
                     <li class="item">
                         <a class="url" href="{{ site.url }}{{ post.url }}">
                             <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
@@ -38,12 +61,9 @@ title: Tags
                         </a>
                     </li>
                 {% endif %}
-            {% endif %}
-        {% endfor %}
-        {% assign pages_list = nil %}
-        {% assign group = nil %}
-    </ul>
+            {% endfor %}
+        </ul>
 
-    <div class="breaker"></div>
+        <div class="breaker"></div>
     {% endfor %}
 </section>
