@@ -9,8 +9,12 @@ layout: compress
         {% include analytics-google.html %}
     {% endif %}
 
-    {% if page.usemathjax %}
+    {% if page.mathjax %}
         {% include mathjax.html %}
+    {% endif %}
+
+    {% if page.plotting %}
+        {% include plotting.html %}
     {% endif %}
 
     <meta charset="utf-8">
