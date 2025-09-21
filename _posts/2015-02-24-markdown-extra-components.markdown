@@ -10,6 +10,7 @@ tag:
 - extra
 category: blog
 mathjax: true
+plotting: true
 author: jamesfoster
 description: Markdown summary with different options
 ---
@@ -25,6 +26,7 @@ You can pick as item to see how to apply in markdown.
 - [Especial Breaker](#especial-breaker)
 - [Spoiler](#spoiler)
 - [MathJax](#mathjax)
+- [Plots](#plots)
 
 #### External Elements
 - [Gist](#gist)
@@ -153,6 +155,64 @@ $$ E = mc^2 $$
 {% endhighlight %}
 
 $$ E = mc^2 $$
+
+---
+
+## Plots
+
+You can embed interactive plots generated in Python using Bokeh.
+
+### Prerequisite: Creating The Plot
+
+```python
+from bokeh.plotting import figure
+from bokeh.sampledata.penguins import data
+from bokeh.transform import factor_cmap, factor_mark
+from bokeh.embed import components
+
+SPECIES = sorted(data.species.unique())
+MARKERS = ["hex", "circle_x", "triangle"]
+
+p = figure(title="Penguin size", background_fill_color="#fafafa")
+p.xaxis.axis_label = "Flipper Length (mm)"
+p.yaxis.axis_label = "Body Mass (g)"
+
+p.scatter(
+    "flipper_length_mm",
+    "body_mass_g",
+    source=data,
+    legend_group="species",
+    fill_alpha=0.4,
+    size=12,
+    marker=factor_mark("species", MARKERS, SPECIES),
+    color=factor_cmap("species", "Category10_3", SPECIES),
+)
+
+p.legend.location = "top_left"
+p.legend.title = "Species"
+
+script, div = components(p)
+
+# Save to a file (contains both div + script)
+with open("example.html", "w") as f:
+    f.write(div + "\n" + script)
+```
+
+### Embeding The Plot
+
+Save your plot to `_includes/plots/` and use the plotting tag. You can then include the plot.
+
+{% highlight raw %}
+plotting: true
+{% endhighlight %}
+
+{% highlight raw %}
+{% raw %}
+{% include plots/example.html %}
+{% endraw %}
+{% endhighlight %}
+
+{% include plots/example.html %}
 
 ---
 
