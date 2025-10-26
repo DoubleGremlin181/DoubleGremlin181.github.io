@@ -173,7 +173,12 @@ from bokeh.embed import components
 SPECIES = sorted(data.species.unique())
 MARKERS = ["hex", "circle_x", "triangle"]
 
-p = figure(title="Penguin size", background_fill_color="#fafafa")
+p = figure(
+    title="Penguin size",
+    background_fill_color="#fafafa",
+    sizing_mode="scale_both",  # Recommended for better scaling
+    tools="pan,wheel_zoom,reset,fullscreen",  # Fullscreen tool is recommended for better UX
+)
 p.xaxis.axis_label = "Flipper Length (mm)"
 p.yaxis.axis_label = "Body Mass (g)"
 
@@ -197,6 +202,8 @@ script, div = components(p)
 with open("example.html", "w") as f:
     f.write(div + "\n" + script)
 ```
+
+Tip: For complex plots, `gridplot` is recommended over other layouts.
 
 ### Embeding The Plot
 
