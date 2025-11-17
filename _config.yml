@@ -20,7 +20,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://kavi.sh/ReIndigo
+url: https://reindigo.kavi.sh/
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
