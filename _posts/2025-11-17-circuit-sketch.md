@@ -6,8 +6,8 @@ tag:
 - websites
 - video games
 - visualization
-image: none
-headerImage: false
+image: /assets/images/posts/circuit-sketch/icon.png
+headerImage: true
 projects: true
 hidden: false
 description: "Draw Formula1 circuits from memory"
