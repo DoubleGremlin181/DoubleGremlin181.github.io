@@ -8,7 +8,7 @@ tag:
 - data analytics
 image: /assets/images/posts/san-francisco-laundry-analysis/washing-machine.png
 headerImage: true
-hidden: false
+hidden: true
 description: "San Francisco Laundry Analysis"
 category: blog
 author: kavishhukmani
