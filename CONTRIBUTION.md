@@ -2,7 +2,7 @@
 Thank you for considering contributing to this project! We appreciate your interest and help in making this project better. Please take a moment to review the following guidelines to ensure a smooth contribution process.
 
 ## Getting Started
-Before you start contributing, please check the [README](https://github.com/sergiokopplin/indigo#setup) for instructions on setting up the project.
+Before you start contributing, please check the [README](https://github.com/DoubleGremlin181/ReIndigo#setup) for instructions on setting up the project.
 
 ## Contribution Guidelines
 To contribute to this project, please follow these steps:
@@ -14,7 +14,7 @@ Click the "Fork" button at the top right of the repository to create a copy of t
 Use Git to clone your fork of the repository to your local machine. Replace `[your-username]` with your actual GitHub username.
 
 ```bash
-git clone https://github.com/[your-username]/indigo.git
+git clone https://github.com/[your-username]/ReIndigo.git
 ```
 ### 3. Create a New Branch
 Before making changes, create a new branch for your work. Naming your branch descriptively will help others understand its purpose.
@@ -42,4 +42,4 @@ A project maintainer will review your pull request. Please be patient during the
 
 ### 9. Continuous Improvement
 Your contributions are valuable! By participating in this project, you help improve it for everyone. Thank you for your support and collaboration!
-If you encounter any issues or have questions, feel free to raise them by following the [Raise an issue](https://github.com/sergiokopplin/indigo/issues) process mentioned in the Contribution Guidelines.
+If you encounter any issues or have questions, feel free to raise them by following the [Raise an issue](https://github.com/DoubleGremlin181/ReIndigo/issues) process mentioned in the Contribution Guidelines.

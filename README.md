@@ -1,5 +1,5 @@
 <p align="center">
-    <h2 align="center">Indigo Minimalist Jekyll Template - <a href="https://sergiokopplin.github.io/indigo/">Demo</a></h2>
+    <h2 align="center">ReIndigo Minimalist Jekyll Template - <a href="https://doublegremlin181.github.io/ReIndigo/">Demo</a></h2>
 </p>
 
 <p align="center">This is a simple and minimalist template for Jekyll for those who likes to eat noodles.</p>
@@ -21,18 +21,18 @@
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png" />
+    <img src="https://raw.githubusercontent.com/DoubleGremlin181/ReIndigo/gh-pages/assets/screen-shot.png" />
 </p>
 
 ## What has inside
 
 - [Jekyll](https://jekyllrb.com/), [Sass](https://sass-lang.com/) ~[RSCSS](https://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/);
-- Page Speed: [99~Desktop](https://pagespeed.web.dev/analysis/https-sergiokopplin-github-io-indigo/41axptm3as?utm_source=psi&utm_medium=redirect&form_factor=desktop);
+- Page Speed: [99~Desktop](https://pagespeed.web.dev/analysis/https-doublegremlin181-github-io-ReIndigo/41axptm3as?utm_source=psi&utm_medium=redirect&form_factor=desktop);
 
 ## Setup
 
 0. :star: to the project. :metal:
-1. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
+1. Fork the project [ReIndigo](https://github.com/DoubleGremlin181/ReIndigo/fork)
 2. Edit `_config.yml` with your data
 3. Write some posts :bowtie:
 
@@ -60,8 +60,8 @@ Check the [FAQ](./FAQ.md).
 ---
 ## License
 
-[MIT](https://kopplin.mit-license.org/) License © Sérgio Kopplin
+[MIT](https://opensource.org/licenses/MIT) License © DoubleGremlin181
 
 ---
 
-[![Star History Chart](https://api.star-history.com/svg?repos=sergiokopplin/indigo&type=Date)](https://star-history.com/#sergiokopplin/indigo&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=DoubleGremlin181/ReIndigo&type=Date)](https://star-history.com/#DoubleGremlin181/ReIndigo&Date)

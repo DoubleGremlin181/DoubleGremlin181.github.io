@@ -20,7 +20,8 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+# Site URL — updated for ReIndigo
+url: https://doublegremlin181.github.io/ReIndigo
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
