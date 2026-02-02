@@ -14,27 +14,36 @@ title: Tags
     
     {% comment %}
     Build array with tag names and counts, then sort manually
+    Use inverted count (99 minus count) so higher counts come first when sorted
+    For ties, tags will be alphabetically sorted
+    Format: inverted_count|actual_count|tag_name
     {% endcomment %}
     {% for tag in site.tags %}
         {% assign tag_size = tag[1].size %}
-        {% if tag_size >= 10 %}
-            {% assign prefix = tag_size %}
+        {% assign inverted_size = 99 | minus: tag_size %}
+        {% if inverted_size >= 10 %}
+            {% assign prefix = inverted_size %}
         {% else %}
-            {% assign prefix = '0' | append: tag_size %}
+            {% assign prefix = '0' | append: inverted_size %}
         {% endif %}
-        {% assign tag_entry = prefix | append: '|' | append: tag[0] %}
+        {% if tag_size >= 10 %}
+            {% assign size_str = tag_size %}
+        {% else %}
+            {% assign size_str = '0' | append: tag_size %}
+        {% endif %}
+        {% assign tag_entry = prefix | append: '|' | append: size_str | append: '|' | append: tag[0] %}
         {% assign tags_by_frequency = tags_by_frequency | push: tag_entry %}
     {% endfor %}
     
-    {% assign tags_by_frequency = tags_by_frequency | sort | reverse %}
+    {% assign tags_by_frequency = tags_by_frequency | sort %}
 
     {% comment %}
     Display sorted tags with post counts
     {% endcomment %}
     {% for tag_entry in tags_by_frequency %}
         {% assign tag_parts = tag_entry | split: '|' %}
-        {% assign tag_count = tag_parts[0] | plus: 0 %}
-        {% assign tag_name = tag_parts[1] %}
+        {% assign tag_count = tag_parts[1] | plus: 0 %}
+        {% assign tag_name = tag_parts[2] %}
         <a class="item" href="#{{ tag_name | slugify }}">{{ tag_name }} ({{ tag_count }})</a>
     {% endfor %}
 </section>
@@ -47,12 +56,12 @@ title: Tags
     {% endcomment %}
     {% for tag_entry in tags_by_frequency %}
         {% assign tag_parts = tag_entry | split: '|' %}
-        {% assign tag_name = tag_parts[1] %}
+        {% assign tag_name = tag_parts[2] %}
         
         <h2 class="title" id="{{ tag_name | slugify }}">#{{ tag_name }}</h2>
 
         <ul class="list">
-            {% for post in site.tags[tag_name] reversed %}
+            {% for post in site.tags[tag_name] %}
                 {% if post.title != null %}
                     <li class="item">
                         <a class="url" href="{{ site.url }}{{ post.url }}">

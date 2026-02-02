@@ -21,7 +21,7 @@ resume-external: true
 resume-url: https://google.com/?q=my+resume
 
 # Site URL — updated for ReIndigo
-url: https://doublegremlin181.github.io/ReIndigo
+url: https://reindigo.kavi.sh/
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
