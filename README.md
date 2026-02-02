@@ -1,67 +1,57 @@
-<p align="center">
-    <h2 align="center">ReIndigo Minimalist Jekyll Template - <a href="https://doublegremlin181.github.io/ReIndigo/">Demo</a></h2>
-</p>
+# ReIndigo
 
-<p align="center">This is a simple and minimalist template for Jekyll for those who likes to eat noodles.</p>
-
-***
-
-<p align="center">
-    <b><a href="README.md#what-has-inside">What has inside</a></b>
-    |
-    <b><a href="README.md#setup">Setup</a></b>
-    |
-    <b><a href="README.md#settings">Settings</a></b>
-    |
-    <b><a href="README.md#how-to">How to</a></b>
-</p>
-
-<p align="center">
-    Light and Dark themes.
-</p>
+A minimalist Jekyll template for personal websites and blogs.
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/DoubleGremlin181/ReIndigo/gh-pages/assets/screen-shot.png" />
 </p>
 
-## What has inside
+<p align="center">
+    <a href="https://reindigo.kavi.sh/">Demo</a>
+</p>
 
-- [Jekyll](https://jekyllrb.com/), [Sass](https://sass-lang.com/) ~[RSCSS](https://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/);
-- Page Speed: [99~Desktop](https://pagespeed.web.dev/analysis/https-doublegremlin181-github-io-ReIndigo/41axptm3as?utm_source=psi&utm_medium=redirect&form_factor=desktop);
+## About
+
+ReIndigo is a fork of [Indigo](https://github.com/sergiokopplin/indigo) by [Sérgio Kopplin](https://github.com/sergiokopplin), with additional features and enhancements.
+
+## Enhancements over Indigo
+
+- **Interactive plots** — Embed [Bokeh](https://bokeh.org/) visualizations in posts
+- **LaTeX support** — Render math equations with [MathJax](https://www.mathjax.org/)
+- **Enhanced tags page** — Tags counted and sorted by frequency
+- **`/resume` vanity URL** — Clean redirect with Google Analytics tracking
+- **Auto dark mode** — Follows system preference with `dark-theme: auto`
+- **Automatic sitemap** — Generated via `jekyll-sitemap` for SEO
 
 ## Setup
 
-0. :star: to the project. :metal:
 1. Fork the project [ReIndigo](https://github.com/DoubleGremlin181/ReIndigo/fork)
 2. Edit `_config.yml` with your data
-3. Write some posts :bowtie:
+3. Write some posts
 
-To run locally do the following:
+### Running locally
 
-1. Install [Jekyll](https://jekyllrb.com) and [Bundler](https://bundler.io/).
-2. Clone the forked repo on your machine
-3. Enter the cloned folder via terminal and run:
+```sh
+docker compose up
+```
+
+Then open [http://localhost:4000](http://localhost:4000)
+
+<details>
+<summary>Without Docker</summary>
+
 ```sh
 bundle install
 bundle exec jekyll serve
 ```
-4. Open it in your browser: [http://localhost:4000](http://localhost:4000)
-
-Or run with [docker](https://github.com/BretFisher/jekyll-serve).
+</details>
 
 ## Settings
 
-You can customize your site on `_config.yml` file.
+Customize your site in `_config.yml`. See the [FAQ](./FAQ.md) for detailed configuration options.
 
-## How To?
-
-Check the [FAQ](./FAQ.md).
-
----
 ## License
 
-[MIT](https://opensource.org/licenses/MIT) License © DoubleGremlin181
+[MIT](https://opensource.org/licenses/MIT) License
 
----
-
-[![Star History Chart](https://api.star-history.com/svg?repos=DoubleGremlin181/ReIndigo&type=Date)](https://star-history.com/#DoubleGremlin181/ReIndigo&Date)
+Original [Indigo](https://github.com/sergiokopplin/indigo) theme © Sérgio Kopplin
