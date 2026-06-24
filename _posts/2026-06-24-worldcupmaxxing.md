@@ -3,7 +3,6 @@ title: "Worldcupmaxxing ⚽️"
 layout: post
 date: 2026-06-24 12:00
 tag:
-- essay
 - optimization
 - sports
 image: /assets/images/posts/worldcupmaxxing/header.jpg
