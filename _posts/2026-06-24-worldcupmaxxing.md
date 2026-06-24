@@ -5,6 +5,7 @@ date: 2026-06-24 12:00
 tag:
 - optimization
 - sports
+- visualization
 image: /assets/images/posts/worldcupmaxxing/header.jpg
 headerImage: true
 projects: false
