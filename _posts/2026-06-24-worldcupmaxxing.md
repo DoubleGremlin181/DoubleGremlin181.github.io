@@ -6,7 +6,7 @@ tag:
 - essay
 - optimization
 - sports
-image: /assets/images/posts/worldcupmaxxing/anim_vip.gif
+image: /assets/images/posts/worldcupmaxxing/header.jpg
 headerImage: true
 projects: false
 hidden: false
